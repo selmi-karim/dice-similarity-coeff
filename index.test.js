@@ -2,7 +2,7 @@
  * @Author: kerim selmi 
  * @Date: 2018-06-07 10:41:02 
  * @Last Modified by: kerim selmi
- * @Last Modified time: 2018-06-08 11:51:09
+ * @Last Modified time: 2018-06-08 12:49:09
  */
 const dsc = require('./index');
 
@@ -15,12 +15,12 @@ test('matching two equal strings', () => {
 
 /** Comparing 2 different strings returns ]0,1[ */
 test('matching two different strings', () => {
-    expect(dsc.twoStrings('hello world', 'hello world!')).toBeGreaterThan(0.8);
-    expect(dsc.twoStrings('hello world', 'Hello Mr kira')).toBeGreaterThan(0.4);
+    expect(dsc.twoStrings('hello world', 'hello world!')).toBeGreaterThan(0.9);
+    expect(dsc.twoStrings('hello world', 'Hello es6')).toBeGreaterThan(0.4);
 });
 
 
 /** Comparing 2 two completely different strings returns 0 */
 test('matching two different strings', () => {
-    expect(dsc.twoStrings('hello world', 'Mr Kira')).toBe(0);
+    expect(dsc.twoStrings('hello world', 'es6')).toBe(0);
 });
