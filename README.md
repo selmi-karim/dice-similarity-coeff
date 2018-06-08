@@ -8,44 +8,54 @@ The algorithm works by comparing the number of identical character pairs between
 
 ```bash
 
-npm install dice-similarity-coeff --save
+        npm install dice-similarity-coeff --save
 
-yarn install dice-similarity-coeff
+        or 
+
+        yarn install dice-similarity-coeff
 
 ```
 
 # Running the tests
 
+you need to install <a href="https://facebook.github.io/jest/docs/en/22.1/getting-started.html">jest</a> 
+
 ```bash
 
-npm install dice-similarity-coeff --save
+        npm test
 
-yarn test
+        or 
+
+        yarn test
 
 ```
 
 
-# Usage example
+# Usage
 
 
 ```js
 
-import dsc from 'dice-similarity-coeff';
- 
-let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
+        import dsc from 'dice-similarity-coeff';
+        
+        let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
 
 ```
 ## Examples
 
 ```js
 
-twoStrings('hello world','hello es6')
-// 0.5
-twoStrings('hello world','hello world!')
-// 0.9473684210526315
-twoStrings('google','facebook')
-// 0.16666666666666666
-twoStrings('github','microsoft')
+        import dsc from 'dice-similarity-coeff';
+                
+        let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
+
+        twoStrings('hello world','hello es6')
+        // 0.5
+        twoStrings('hello world','hello world!')
+        // 0.9473684210526315
+        twoStrings('google','facebook')
+        // 0.16666666666666666
+        twoStrings('github','microsoft')
 // 1 (it is just joke result = 0)
 
 ```
@@ -53,7 +63,7 @@ twoStrings('github','microsoft')
 
 # Author
 
-kerim selmi karimation.com <a href="http://www.karimation.com">karimation</a>
+kerim selmi <a href="http://www.karimation.com">karimation</a>
 # License
 
 This project is licensed under the  <a href="LICENSE">MIT License</a>
