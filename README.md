@@ -5,7 +5,7 @@ The values produces are bounded between zero and one.
 The algorithm works by comparing the number of identical character pairs between the two strings.
 
 <div>
-<iframe allowfullscreen src="http://www.algomation.com/embeddedplayer?embedded=true&algorithm=5b1a8b2995796504002dcd62" width="900" height="556" seamless="seamless" frameborder="0" style="border:1px solid lightgray" scrolling="no"></iframe>
+<iframe  src="http://www.algomation.com/embeddedplayer?embedded=true&algorithm=5b1a8b2995796504002dcd62" width="900" height="556" seamless="seamless" frameborder="0" style="border:1px solid lightgray" scrolling="no"></iframe>
 </div>
 ## Install
 
