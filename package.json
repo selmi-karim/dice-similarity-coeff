@@ -1,0 +1,34 @@
+{
+  "name": "dice-similarity-coeff",
+  "version": "0.1.0",
+  "description": "Find similarity between two strings, based on Dice Similarity Coefficient DSC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karimation/dice-similarity-coeff.git"
+  },
+  "keywords": [
+    "string",
+    "string-matching",
+    "similarity",
+    "string-similarity",
+    "string-compare",
+    "degree",
+    "dice",
+    "dice-similarity",
+    "javascript",
+    "rn-strings-filter",
+    "rn-string-matching",
+    "rn-strig-compare",
+    "react-native"
+  ],
+  "author": "kerim selmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karimation/dice-similarity-coeff/issues"
+  },
+  "homepage": "https://github.com/karimation/dice-similarity-coeff#readme"
+}
