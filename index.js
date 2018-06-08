@@ -1,4 +1,11 @@
-let dsc = function(sa1, sa2){
+/*
+ * @Author: kerim selmi 
+ * @Date: 2018-06-07 10:40:33 
+ * @Last Modified by: kerim selmi
+ * @Last Modified time: 2018-06-08 11:41:15
+ */
+
+let twoStrings = function(sa1, sa2){
     // Compare two strings to see how similar they are.
     // Answer is returned as a value from 0 - 1
     // 1 indicates a perfect similarity (100%) while 0 indicates no similarity (0%)
@@ -40,4 +47,4 @@ let pairs = function(s){
 }
 
 
-exports.dsc = dsc;
+exports.twoStrings = twoStrings;
