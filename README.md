@@ -5,8 +5,8 @@ The values produces are bounded between zero and one.
 The algorithm works by comparing the number of identical character pairs between the two strings.
 
 <div>
-<img src="screenshots/1.png" width="280" height="400">
-<img src="screenshots/2.png" width="280" height="400">
+<img src="screenshots/1.png" width="900" height="500">
+<img src="screenshots/2.png" width="900" height="500">
 </div>
 ## Install
 
