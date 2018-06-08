@@ -4,7 +4,8 @@
   "description": "Find similarity between two strings, based on Dice Similarity Coefficient DSC",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
