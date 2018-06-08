@@ -4,6 +4,10 @@ The Dice Similarity Coefficient is a simple and elegant way to calculate a measu
 The values produces are bounded between zero and one. 
 The algorithm works by comparing the number of identical character pairs between the two strings.
 
+<div>
+<img src="screenshots/1.png" width="280" height="400">
+<img src="screenshots/2.png" width="280" height="400">
+</div>
 ## Install
 
 ```bash
