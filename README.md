@@ -6,7 +6,7 @@ The algorithm works by comparing the number of identical character pairs between
 
 ## Install
 
-```bash
+        ```bash
 
         npm install dice-similarity-coeff --save
 
@@ -14,13 +14,13 @@ The algorithm works by comparing the number of identical character pairs between
 
         yarn install dice-similarity-coeff
 
-```
+        ```
 
 # Running the tests
 
 you need to install <a href="https://facebook.github.io/jest/docs/en/22.1/getting-started.html">jest</a> 
 
-```bash
+        ```bash
 
         npm test
 
@@ -28,22 +28,22 @@ you need to install <a href="https://facebook.github.io/jest/docs/en/22.1/gettin
 
         yarn test
 
-```
+        ```
 
 
 # Usage
 
 
-```js
+        ```js
 
         import dsc from 'dice-similarity-coeff';
         
         let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
 
-```
+        ```
 ## Examples
 
-```js
+        ```js
 
         import dsc from 'dice-similarity-coeff';
                 
@@ -56,9 +56,9 @@ you need to install <a href="https://facebook.github.io/jest/docs/en/22.1/gettin
         twoStrings('google','facebook')
         // 0.16666666666666666
         twoStrings('github','microsoft')
-// 1 (it is just joke result = 0)
+        // 1 (it is just joke result = 0)
 
-```
+        ```
 
 
 # Author
