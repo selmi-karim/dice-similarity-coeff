@@ -2,7 +2,7 @@
  * @Author: kerim selmi 
  * @Date: 2018-06-07 10:40:33 
  * @Last Modified by: kerim selmi
- * @Last Modified time: 2018-06-08 13:02:54
+ * @Last Modified time: 2018-06-09 17:42:55
  */
 const twoStrings = (sa1, sa2) => {
     // Compare two strings to see how similar they are.
@@ -45,5 +45,16 @@ const pairs = (s) => {
     return pairs;
 }
 
+// Sort array with dice Comparator
+const simSort = (s1,arr1) => {
+    // Comparison should not check case or whitespace  
+    return arr1.sort(function(a,b) {
+        let v1 = twoStrings(s1,a)
+        let v2 = twoStrings(s1,b);
+        return v2-v1 
+    });
+
+};
 
 exports.twoStrings = twoStrings;
+exports.simSort = simSort;
