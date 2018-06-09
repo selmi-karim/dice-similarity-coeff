@@ -1,6 +1,6 @@
 {
   "name": "dice-similarity-coeff",
-  "version": "0.1.2",
+  "version": "1.0.1",
   "description": "Find similarity between two strings, based on Dice Similarity Coefficient DSC",
   "main": "index.js",
   "scripts": {
