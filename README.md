@@ -60,6 +60,9 @@ dsc.twoStrings('google','facebook')
 dsc.twoStrings('github','microsoft')
 // 1 (it is just joke result = 0)
 
+dsc.simSort('hello',['hella','world','helloo','hel'])
+// ["helloo","hella","hel","world"]
+
 ```
 
 
