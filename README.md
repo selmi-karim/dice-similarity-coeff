@@ -50,15 +50,14 @@ let dsc = dsc.twoStrings('Hello World', 'Hello es6');
 
 import dsc from 'dice-similarity-coeff';
         
-let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
 
-twoStrings('hello world','hello es6')
+dsc.twoStrings('hello world','hello es6')
 // 0.5
-twoStrings('hello world','hello world!')
+dsc.twoStrings('hello world','hello world!')
 // 0.9473684210526315
-twoStrings('google','facebook')
+dsc.twoStrings('google','facebook')
 // 0.16666666666666666
-twoStrings('github','microsoft')
+dsc.twoStrings('github','microsoft')
 // 1 (it is just joke result = 0)
 
 ```
