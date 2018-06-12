@@ -40,7 +40,7 @@ yarn test
 
 import dsc from 'dice-similarity-coeff';
 
-let dsc = dsc.twoStrings('Hello World', 'Hello es6'); 
+let result = dsc.twoStrings('Hello World', 'Hello es6'); 
 
 ```
 
