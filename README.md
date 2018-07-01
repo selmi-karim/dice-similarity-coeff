@@ -2,6 +2,7 @@
 
 The Dice Similarity Coefficient is a simple and elegant way to calculate a measure of the similarity of two strings. 
 The values produces are bounded between zero and one. 
+
 The algorithm works by comparing the number of identical character pairs between the two strings.
 
 <img src="screenshots/test.gif"  />
