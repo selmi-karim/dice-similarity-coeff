@@ -2,7 +2,7 @@ const dsc = require("./index");
 
 /** Comparing 2 exact same strings returns 1 */
 test("matching two equal strings", () => {
-  expect(dsc.twoStrings("hello world", "hello world")).toBe(1);
+  expect(dsc.twoStrings("a", "a")).toBe(1);
 });
 
 /** Comparing 2 different strings returns ]0,1[ */
