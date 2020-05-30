@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/selmi-karim/dice-similarity-coeff/compare/v1.1.0...v1.1.1) (2020-05-30)
+
+
+### Bug Fixes
+
+* check char strings ([4e52b05](https://github.com/selmi-karim/dice-similarity-coeff/commit/4e52b0594e747f8e99548b53c7b460d053baf273))
+
 # [1.1.0](https://github.com/selmi-karim/dice-similarity-coeff/compare/v1.0.3...v1.1.0) (2020-05-30)
 
 
