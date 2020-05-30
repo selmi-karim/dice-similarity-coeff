@@ -1,9 +1,3 @@
-/*
- * @Author: kerim selmi 
- * @Date: 2018-06-07 10:40:33 
- * @Last Modified by: kerim selmi
- * @Last Modified time: 2018-06-09 17:42:55
- */
 const twoStrings = (sa1, sa2) => {
     // Compare two strings to see how similar they are.
     // Answer is returned as a value from 0 - 1
