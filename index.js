@@ -7,7 +7,7 @@ const twoStrings = (sa1, sa2) => {
   // Comparison should not check case or whitespace
   let s1 = sa1.replace(/\s/g, "").toLowerCase();
   let s2 = sa2.replace(/\s/g, "").toLowerCase();
-
+  if(s1.length === 1 || s2.length === 1) return Number(s1 === s2)
   const similarity_num = 2 * intersect(pairs(s1), pairs(s2)).length;
   const similarity_den = pairs(s1).length + pairs(s2).length;
   return similarity_num / similarity_den;
