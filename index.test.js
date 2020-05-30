@@ -1,9 +1,3 @@
-/*
- * @Author: kerim selmi 
- * @Date: 2018-06-07 10:41:02 
- * @Last Modified by: kerim selmi
- * @Last Modified time: 2018-06-08 12:49:09
- */
 const dsc = require('./index');
 
 
