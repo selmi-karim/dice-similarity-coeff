@@ -3,6 +3,7 @@ module.exports = {
     node: true,
     es6: true,
     amd: true,
+    jest: true,
   },
   extends: "eslint:recommended",
   globals: {
@@ -15,4 +16,3 @@ module.exports = {
   },
   rules: {},
 };
-
